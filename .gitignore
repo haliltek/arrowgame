@@ -1,0 +1,22 @@
+# Gradle / Android Studio build output
+.gradle/
+build/
+app/build/
+**/build/
+
+# IDE / Editor files
+.idea/
+*.iml
+.navigation/
+captures/
+.externalNativeBuild/
+.cxx/
+
+# OS specific files
+.DS_Store
+Thumbs.db
+
+# Sensitive local settings
+local.properties
+*.keystore
+*.jks

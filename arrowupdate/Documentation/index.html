@@ -1,0 +1,443 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<head lang="en">
+  <meta http-equiv="content-type" content="text/html;charset=utf-8">
+  <title>Arrow Challenge Android Game</title>
+  <!-- Framework CSS -->
+  <link rel="stylesheet" href="assets/blueprint-css/screen.css" type="text/css" media="screen, projection">
+  <link rel="stylesheet" href="assets/blueprint-css/print.css" type="text/css" media="print">
+  <!--[if lt IE 8]>
+				<link rel="stylesheet" href="assets/blueprint-css/ie.css" type="text/css" media="screen, projection">
+					<![endif]-->
+  <link rel="stylesheet" href="assets/blueprint-css/plugins/fancy-type/screen.css" type="text/css" media="screen, projection">
+  <style type="text/css" media="screen">
+    p,
+    table,
+    hr,
+    .box {
+      margin-bottom: 25px;
+    }
+
+    .box p {
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h3 class="center alt">&ldquo;Arrow Challenge Android Game&rdquo; Documentation by &ldquo;SEGADROID&rdquo; v1.0</h3>
+    <hr>
+    <h1 class="center">&ldquo;Arrow Challenge Android Game&rdquo;</h1>
+    <div class="borderTop">
+      <div class="span-6 colborder info prepend-1">
+        <p class="prepend-top">
+          <strong> Created: 09/05/2026 <br> By: SEGADROID <br> Email: <a href="mailto:segadroid.studio@outlook.com">segadroid.studio@outlook.com</a> Contact: <a href="https://codecanyon.net/user/segadroid">CodeCanyon Profile</a>
+          </strong>
+        </p>
+      </div>
+      <!-- end div .span-6 -->
+      <div class="span-12 last">
+        <p class="prepend-top append-0"> Thank you for purchasing our game from CodeCanyon. If you have any questions that are beyond the scope of this help file, please feel free to contact us via our <a href="https://codecanyon.net/user/segadroid">CodeCanyon profile</a> page. We will be happy to help you! </p>
+      </div>
+    </div>
+    <!-- end div .borderTop -->
+    <hr>
+    <h2 id="toc" class="alt">Table of Contents</h2>
+    <ol class="alpha">
+      <li>
+        <a href="#import">Import Project Into Android Studio</a>
+      </li>
+      <li>
+        <a href="#packagename">Rename Packagename</a>
+      </li>
+      <li>
+        <a href="#appname">Change Game Name</a>
+      </li>
+      <li>
+        <a href="#appicon">Change Game Icon</a>
+      </li>
+      <li>
+        <a href="#Sounds">Change Game Sounds and Music</a>
+      </li>
+      <li>
+        <a href="#Assets">Change Game Assets</a>
+      </li>
+      <li>
+        <a href="#Splash">Change Splash Logo</a>
+      </li>
+      <li>
+        <a href="#AdMob">Change AdMob Ads</a>
+      </li>
+      <li>
+        <a href="#release">Generate Signed APK / AAB</a>
+      </li>
+      <li>
+        <a href="#Troubleshooting">Troubleshooting</a>
+      </li>
+    </ol>
+    <hr>
+    <h3>
+      <strong>Requirements</strong>
+    </h3>
+    <p>To open and build this project, you will need:</p>
+    <ul>
+      <li>Android Studio Koala (2024.1.1) or newer</li>
+      <li>JDK 17 (Recommended) or JDK 21</li>
+      <li>Gradle 8.5+</li>
+      <li>Programming Language: Java 17</li>
+      <li>compileSdk Version: 36</li>
+      <li>Minimum SDK Version (minSdk): 23</li>
+      <li>Target SDK Version (targetSdk): 36</li>
+    </ul>
+    <p> Note: Google Play requires new apps to target the latest Android SDK version available at the time of publishing. </p>
+    <hr>
+    <h3 id="import">
+      <strong>A) Import Project Into Android Studio</strong> - <a href="#toc">top</a>
+    </h3>
+    <p>After you download the files from CodeCanyon, there is the project source code at "Android Code Source".</p>
+    <p>Follow these steps to import the project into Android Studio and Install the necessary SDK:</p>
+    <p>
+      <b>Step 1:</b> Click <b>File → New → Import Project</b>.
+    </p>
+    <p>
+      <b>Step 2:</b> Browse to the folder named <b>Android Code Source</b> and select it.
+    </p>
+    <p>
+      <b>Step 3:</b> Click <b>OK</b> and wait for Gradle to sync.
+    </p>
+    <p>
+      <b>Step 4:</b> Install Android 16 (36 API) from SDK Manager.
+    </p>
+    <img src="assets/images/1.png" alt="HTML Structure" style="width: 800px; border-radius: 15px;" />
+    <hr>
+    <h3 id="packagename">
+      <strong>B) Rename Package</strong> - <a href="#toc">top</a>
+    </h3>
+    <p>You can rename package by follow these steps:</p>
+    <p>
+      <b>Step 1:</b> In Android Studio, switch to <b>Project</b> view.
+    </p>
+    <p>
+      <b>Step 2:</b> Navigate to <b>app → java → com</b>.
+    </p>
+    <img src="assets/images/2.png" alt="HTML Structure" style="width: 350px; border-radius: 15px;" />
+    <p></p>
+    <p>
+      <b>Step 3:</b> Right click on your current package name.
+    </p>
+    <p>
+      <b>Step 4:</b> Click <b>Refactor → Rename</b>.
+    </p>
+    <p>
+      <b>Step 5:</b> Select <b>Rename Package</b> and enter your new package name.
+    </p>
+    <p>
+      <b>Step 6:</b> Click <b>Refactor</b> and wait until the process completes.
+    </p>
+    <img src="assets/images/3.png" alt="HTML Structure" style="width: 370px; border-radius: 15px;" />
+    <img src="assets/images/33.png" alt="HTML Structure" style="width: 370px; border-radius: 15px;"  />
+    <p></p>
+    <p>
+      <b>Step 7:</b> Open <b>app/build.gradle</b> and update the <b>applicationId</b> and <b>namespace</b> with the same new package name.
+    </p>
+    <img src="assets/images/55.png" alt="HTML Structure" style="width: 790px; border-radius: 15px;" />
+    <hr>
+    <h3 id="appname">
+      <strong>C) Change Game Name</strong> - <a href="#toc">top</a>
+    </h3>
+    <p>You can change game name by follow these steps:</p>
+    <p>
+      <b>Step 1:</b> Open Android Studio.
+    </p>
+    <p>
+      <b>Step 2:</b> Go to app → res → values → strings.xml.
+    </p>
+    <p>
+      <b>Step 3:</b> Edit the app_name value.
+    </p>
+    <img src="assets/images/7.png" alt="HTML Structure" style="width:790px; border-radius: 15px;" />
+    <p></p>
+    <hr>
+    <h3 id="appicon">
+      <strong>D) Change Game Icon</strong> - <a href="#toc">top</a>
+    </h3>
+    <p>You can change game icon by follow these steps:</p>
+    <p>
+      <b>Step 1:</b> Prepare your new icon in PNG format.
+    </p>
+    <p>
+      <b>Step 2:</b> Go to <b>app → res → mipmap</b> folder.
+    </p>
+    <p>
+      <b>Step 3:</b> Replace the existing <b>ic_launcher</b> and <b>ic_launcher_round</b> files with your new icons.
+    </p>
+    <p>
+      <b>Step 4:</b> Make sure you replace icons in all density folders (mdpi, hdpi, xhdpi, xxhdpi, xxxhdpi).
+    </p>
+    <p>
+      <b>Step 5:</b> Clean and rebuild the project.
+    </p>
+    <img src="assets/images/6.png" alt="HTML Structure" style="width: 770px; border-radius: 15px;" />
+    <p></p>
+    <p>If you want to know about screen densities and icon dimensions, please take a look at below.</p>
+    <img src="assets/images/5.png" alt="HTML Structure" style="width: 780px;" />
+    <hr>
+    <h3 id="Sounds">
+  <strong>E) Change Game Sounds and Music</strong> - <a href="#toc">top</a>
+</h3>
+
+<p>You can change game music and sound effects by following these steps:</p>
+
+<p><b>Step 1:</b> Open Android Studio.</p>
+
+<p><b>Step 2:</b> Navigate to the directory for background music and sound effects:</p>
+<ul>
+  <li><code>app/assets/assets/audio</code></li>
+</ul>
+
+<p><b>Step 3:</b> Replace the existing audio file with your new file, keeping the same file name.</p>
+
+<p><b>Step 4:</b> Rebuild the project to see the changes.</p>
+
+<img src="assets/images/9.png" alt="Sound Effects Folder Structure" style="width: 390px; border-radius: 15px;" />
+
+
+<hr>
+    <h3 id="Assets">
+  <strong>F) Change Game Assets</strong> - <a href="#toc">top</a>
+</h3>
+
+<p>You can change game assets by following these steps:</p>
+
+<p><b>Step 1:</b> Open Android Studio.</p>
+
+<p>
+  <b>Step 2:</b> Navigate to the following directory:
+</p>
+
+<ul>
+  <li><code>app/assets/assets/spritesheets</code></li>
+</ul>
+
+<p><b>Step 3:</b> Replace the image files with your custom graphics.</p>
+
+<p><b>Step 4:</b> Make sure to keep the same file names.</p>
+
+<p><b>Step 5:</b> Rebuild the project to see the changes.</p>
+
+<p></p>
+
+<img src="assets/images/15.png" alt="Assets Folder Structure" style="width: 820px; border-radius: 15px;" />
+
+<p></p>
+<hr>
+    <h3 id="Splash">
+      <strong>G) Change Splash Logo</strong> - <a href="#toc">top</a>
+    </h3>
+    <p>You can change Splash Logo by follow these steps:</p>
+    <p>
+      <b>Step 1:</b> Go to <b>app → assets → assets → splash</b>.
+    </p>
+    <p>
+      <b>Step 2:</b> Locate the file named <b>splashlogo.png</b>.
+    </p>
+    <p>
+      <b>Step 3:</b> Replace it with your new splash logo.
+    </p>
+    <p>
+      <b>Step 4:</b> Make sure the new image has the same file name and format.
+    </p>
+    <p>
+      <b>Step 5:</b> Rebuild and run the project to preview the splash screen.
+    </p>
+    <p></p>
+    <img src="assets/images/26.png" alt="HTML Structure" style="width: 820px; border-radius: 15px;" />
+    <p></p>
+    <hr>
+    <h3 id="AdMob">
+      <strong>H) Change AdMob Ads</strong> - <a href="#toc">top</a>
+    </h3>
+    <p>
+      <b>Step 1:</b> Open <b>AndroidManifest.xml</b>.
+    </p>
+    <p>
+      <b>Step 2:</b> Locate the AdMob App ID.
+    </p>
+    <p>
+      <b>Step 3:</b> Replace it with your own AdMob App ID from AdMob dashboard.
+    </p>
+    <p></p>
+    <img src="assets/images/10.png" alt="HTML Structure" style="width: 810px; border-radius: 15px;" />
+    <p></p>
+    <p>
+      <b>Step 4:</b> Go to <b>MainActivity.java</b>.
+    </p>
+    <p>
+      <b>Step 5:</b> Scroll to the Interstitial Ad section.
+    </p>
+    <p>
+      <b>Step 6:</b> Replace the existing Ad Unit ID with your own Interstitial Ad Unit ID.
+    </p>
+    <p></p>
+    <img src="assets/images/11.png" alt="HTML Structure" style="width: 810px; border-radius: 15px;" />
+    <p></p>
+    <p></p>
+    <p>
+      <b>Step 7:</b> Open <b>app → res → layout → activity_main.xml</b>.
+    </p>
+    <p>
+      <b>Step 8:</b> Scroll to the Banner Ad section.
+    </p>
+    <p>
+      <b>Step 9:</b> Replace the Banner Ad Unit ID with your own Ad Unit ID.
+    </p>
+    <p></p>
+    <img src="assets/images/44.png" alt="HTML Structure" style="width: 810px; border-radius: 15px;" />
+        <p></p>
+    <p></p>
+    <p>
+      <b>Step 10:</b> Go to <b>MainActivity.java</b>.
+    </p>
+    <p>
+      <b>Step 11:</b> Scroll to the Rewarded Ad section.
+    </p>
+    <p>
+      <b>Step 12:</b> Replace the existing Ad Unit ID with your own Rewarded Ad Unit ID.
+    </p>
+    <p>
+      <b>Step 13:</b> Rebuild the project.
+    </p>
+    <p></p>
+    <img src="assets/images/65.png" alt="HTML Structure" style="width: 810px; border-radius: 15px;" />
+    <hr>
+    <h3 id="release">
+  <strong>I) Generate Signed APK / AAB</strong> - <a href="#toc">top</a>
+</h3>
+
+<p>
+Before publishing your app on Google Play, you must generate a signed release file.
+You can generate either:
+</p>
+
+<ul>
+  <li><b>Android App Bundle (.aab)</b> – Recommended for Google Play</li>
+  <li><b>Signed APK (.apk)</b> – For manual distribution or testing</li>
+</ul>
+
+<hr>
+
+<h4>Step 1: Generate a Keystore File</h4>
+
+<ol>
+  <li>Open the project in Android Studio.</li>
+  <li>Click <b>Build → Generate Signed Bundle / APK</b>.</li>
+  <li>Choose <b>Android App Bundle</b> or <b>APK</b>, then click Next.</li>
+  <li>Click <b>Create new...</b> to create a new keystore.</li>
+  <li>Choose a safe location on your computer.</li>
+  <li>Fill in the required information:
+    <ul>
+      <li>Keystore password</li>
+      <li>Key alias</li>
+      <li>Key password</li>
+      <li>Validity (Recommended: 25 years or more)</li>
+    </ul>
+  </li>
+</ol>
+
+<p>
+⚠ <b>Important:</b> Keep your keystore file safe. If you lose it, you will NOT be able to update your app on Google Play.
+</p>
+
+<hr>
+
+<h4>Step 2: Generate Android App Bundle (.aab) – Recommended</h4>
+
+<ol>
+  <li>Go to <b>Build → Generate Signed Bundle / APK</b>.</li>
+  <li>Select <b>Android App Bundle</b>.</li>
+  <li>Choose your created keystore.</li>
+  <li>Select <b>release</b> build variant.</li>
+  <li>Click Finish.</li>
+</ol>
+
+<p>
+After build completes, your AAB file will be located in:
+</p>
+
+<p><b>app/release/app-release.aab</b></p>
+
+<p>
+Upload this file directly to Google Play Console.
+</p>
+
+<hr>
+
+<h4>Step 3: Generate Signed APK (.apk)</h4>
+
+<ol>
+  <li>Go to <b>Build → Generate Signed Bundle / APK</b>.</li>
+  <li>Select <b>APK</b>.</li>
+  <li>Choose your keystore.</li>
+  <li>Select <b>release</b> build variant.</li>
+  <li>Click Finish.</li>
+</ol>
+
+<p>
+After build completes, your APK file will be located in:
+</p>
+
+<p><b>app/release/app-release.apk</b></p>
+
+<p>You can use this APK for:</p>
+
+<ul>
+  <li>Manual installation</li>
+  <li>Testing on devices</li>
+  <li>Uploading to third-party app stores</li>
+</ul>
+
+<hr>
+    <h3 id="Troubleshooting">
+      <strong>J) Troubleshooting</strong> - <a href="#toc">top</a>
+    </h3>
+    <p>
+      <b>Gradle Sync Failed:</b>
+    </p>
+    <p>- Click File → Sync Project with Gradle Files</p>
+    <p>- Make sure SDK version is installed</p>
+    <p>
+      <b>Ads Not Showing:</b>
+    </p>
+    <p>- Check AdMob App ID</p>
+    <p>- Make sure test ads are removed</p>
+    <p>- Check internet connection</p>
+    <p>
+      <b>Build Failed:</b>
+    </p>
+    <p>- Clean project (Build → Clean Project)</p>
+    <p>- Make sure compileSdk matches installed SDK</p>
+    <hr>
+    <h3>
+      <strong>Changelog</strong>
+    </h3>
+    <h4>Version 1.0 (09/05/2026)</h4>
+    <ul>
+      <li>Initial Release</li>
+      <li>AdMob Banner Integrated</li>
+      <li>AdMob Interstitial Integrated</li>
+      <li>AdMob Rewarded Integrated</li>
+      <li>Android 16 Compatible</li>
+      <li>Ready to Publish</li>
+    </ul>
+    <hr>
+    <p> Once again, thank you so much for purchasing our game. If you have any questions related to this Android project, feel free to contact us through our <a href="https://codecanyon.net/user/segadroid">CodeCanyon profile</a>. </p>
+    <p class="append-bottom alt large">
+      <strong>SEGADROID</strong>
+    </p>
+    <p>
+      <a href="#toc">Go To Table of Contents</a>
+    </p>
+    <hr class="space">
+  </div>
+  <!-- end div .container -->
+</body>
+</html>

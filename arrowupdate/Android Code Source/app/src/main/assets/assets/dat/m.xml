@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<stringresources>
+    <strings>
+
+        <string id="TAP_TO_PLAY">
+            <en>Tap to Start</en>
+        </string>
+
+        <string id="SETTINGS">
+            <en>Settings</en>
+        </string>
+
+        <string id="HOME">
+            <en>MAIN MENU</en>
+        </string>
+
+        <string id="ARE_YOU_SURE">
+            <en>Are you sure?</en>
+        </string>
+
+        <string id="RESTART">
+            <en>RESTART</en>
+        </string>
+
+        <string id="LANGUAGE">
+            <en>ENGLISH</en>
+        </string>
+
+        <string id="PLAY">
+            <en>PLAY</en>
+        </string>
+
+        <string id="LEVEL">
+            <en>LEVEL </en>
+        </string>
+
+        <string id="ARROWS">
+            <en>ARROWS</en>
+        </string>
+
+        <string id="THEME_DARK">
+            <en>DARK</en>
+        </string>
+
+        <string id="THEME_LIGHT">
+            <en>LIGHT</en>
+        </string>
+
+        <string id="DIFFICULTY_2">
+            <en>HARD</en>
+        </string>
+
+        <string id="DIFFICULTY_3">
+            <en>SUPER HARD</en>
+        </string>
+
+        <string id="WATCH">
+            <en>Watch AD</en>
+        </string>
+
+        <string id="HINT">
+            <en></en>
+        </string>
+
+        <string id="REVIVE">
+            <en>REVIVE</en>
+        </string>
+
+        <string id="YES">
+            <en>YES</en>
+        </string>
+
+        <string id="NO">
+            <en>NO</en>
+        </string>
+
+        <string id="MENU">
+            <en>MENU</en>
+        </string>
+
+        <string id="PAUSE_TITLE">
+            <en>PAUSED</en>
+        </string>
+
+        <string id="EXIT_TITLE">
+            <en>QUIT LEVEL?</en>
+        </string>
+
+        <string id="EXIT_TEXT">
+            <en>You will lose your progress!</en>
+        </string>
+
+        <string id="RESTART_TITLE">
+            <en>RESTART LEVEL?</en>
+        </string>
+
+        <string id="REVIVE_TITLE">
+            <en>Continue?</en>
+        </string>
+
+        <string id="REVIVE_TEXT">
+            <en>REFILL YOUR LIVES\nTO KEEP PLAYING!</en>
+        </string>
+
+        <string id="LEVEL_FAILED_TITLE">
+            <en>Level Failed</en>
+        </string>
+
+        <string id="LEVEL_FAILED_TEXT">
+            <en>OUT OF LIVES!\nTRY AGAIN!</en>
+        </string>
+
+        <string id="CONTINUE">
+            <en>CONTINUE</en>
+        </string>
+
+        <string id="LOCKED">
+            <en>LOCKED</en>
+        </string>
+
+        <string id="CHALLENGE">
+            <en>CHALLENGE</en>
+        </string>
+
+        <string id="CHALLENGE_TITLE">
+            <en>CHALLENGE STREAK</en>
+        </string>
+
+        <string id="CHALLENGE_TEXT">
+            <en>Play a new challenge every day\nto increase your streak!</en>
+        </string>
+
+        <string id="CELEBRATION_1_1">
+            <en>AWESOME!</en>
+        </string>
+
+        <string id="CELEBRATION_1_2">
+            <en>Amazing!</en>
+        </string>
+
+        <string id="CELEBRATION_1_3">
+            <en>Great!</en>
+        </string>
+
+        <string id="CELEBRATION_2_1">
+            <en>Perfect!</en>
+        </string>
+
+        <string id="CELEBRATION_2_2">
+            <en>Fantastic!</en>
+        </string>
+
+        <string id="CELEBRATION_2_3">
+            <en>Genius!</en>
+        </string>
+
+        <string id="CELEBRATION_3_1">
+            <en>Legendary!</en>
+        </string>
+
+        <string id="CELEBRATION_3_2">
+            <en>Excellent!</en>
+        </string>
+
+        <string id="CELEBRATION_3_3">
+            <en>Brilliant!</en>
+        </string>
+
+        <string id="QUIT">
+            <en>QUIT</en>
+        </string>
+
+        <string id="TUTORIAL_ARROW">
+            <en>TAP ARROW TO MOVE</en>
+        </string>
+
+        <string id="TUTORIAL_MOBILE">
+            <en>Use two fingers\nto zoom in</en>
+        </string>
+
+        <string id="TUTORIAL_DESKTOP">
+            <en>Use the scrolling wheel\nto zoom in</en>
+        </string>
+
+        <string id="READY">
+            <en>READY!</en>
+        </string>
+
+    </strings>
+</stringresources>
